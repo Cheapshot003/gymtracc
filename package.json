@@ -1,0 +1,29 @@
+{
+  "name": "master-warning-backend",
+  "version": "1.0.50",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "bun run --watch src/index.tsx"
+  },
+  "dependencies": {
+    "@bogeychan/elysia-logger": "^0.0.22",
+    "@elysiajs/cookie": "^0.8.0",
+    "@elysiajs/cors": "^1.0.2",
+    "@elysiajs/html": "^1.0.2",
+    "@elysiajs/jwt": "^1.0.2",
+    "@elysiajs/static": "^1.0.3",
+    "@supabase/supabase-js": "^2.43.5",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "dotenv": "^16.4.5",
+    "elysia": "^1.0.25",
+    "elysia-decorators": "^1.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "react": "^18.3.1",
+    "typed-html": "^3.0.1"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "module": "src/index.js"
+}
