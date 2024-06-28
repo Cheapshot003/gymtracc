@@ -1,4 +1,5 @@
-export interface Device {
+export interface Workout {
     id?: string,
-    name: string
+    name: string,
+    date: string
 }
